@@ -22,7 +22,7 @@ import pomPages.NewEventDetailsPage;
 import pomPages.NewLeadDetailsPage;
 import pomPages.NewOrgDetailsPage;
 import pomPages.OrganizationsPage;
-
+//Open tab
 public class BaseClass {
 
 	// @BeforeSuite
