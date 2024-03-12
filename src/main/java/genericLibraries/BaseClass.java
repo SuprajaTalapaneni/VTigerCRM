@@ -23,6 +23,9 @@ import pomPages.NewLeadDetailsPage;
 import pomPages.NewOrgDetailsPage;
 import pomPages.OrganizationsPage;
 //Open tab
+
+//This is base class
+
 public class BaseClass {
 
 	// @BeforeSuite
