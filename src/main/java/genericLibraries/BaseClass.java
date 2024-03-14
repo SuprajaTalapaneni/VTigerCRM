@@ -51,7 +51,7 @@ public class BaseClass {
 	protected NewContactsDetailsPage newContact;
 	protected NewLeadDetailsPage newLead;
 	protected NewEventDetailsPage newEvent;
-
+//This method has some setups
 	@BeforeClass
 	public void classSetup() {
 		property = new PropertiesUtility();
