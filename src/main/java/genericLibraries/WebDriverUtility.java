@@ -242,7 +242,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 		 * @param className
 		 * @param jutil
 		 */
-		public void captureScreenshot(WebDriver driver, String className, JavaUtility jutil) {
+		public String captureScreenshot(WebDriver driver, String className, JavaUtility jutil) {
 			TakesScreenshot ts = (TakesScreenshot) driver;
 			File src = ts.getScreenshotAs(OutputType.FILE);
 			File dest = new File("./Screenshot" + className + "_" + jutil.getCurrentTime() + ".png");
@@ -251,6 +251,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			return dest.getAbsolutePath();
 		}
 
 		/**
